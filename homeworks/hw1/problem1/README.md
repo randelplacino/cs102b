@@ -1,9 +1,9 @@
-Problem 1:
+## Problem 1:
 
-1.  input:  mkdir hw1_unix
+1.  input:  mkdir hw1_unix  
     output: 
     
-2.  input:  cp -r ~/hw1_unix ~/hw1_unix_copy
+2.  input:  cp -r ~/hw1_unix ~/hw1_unix_copy  
     output:
     
 3.  input:  echo '' >file1.txt
