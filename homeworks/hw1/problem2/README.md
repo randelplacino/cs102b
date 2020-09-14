@@ -11,3 +11,15 @@ int main () {
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return(0);  
 }  
+
+**1. After saving and exiting with a new name (repeat.c),**
+&nbsp;&nbsp;&nbsp;&nbsp;gcc repeat.c
+**Is used to compile**
+
+**2. To run the program, type,**
+&nbsp;&nbsp;&nbsp;&nbsp;./a.out
+
+**3. The output is the following,**
+&nbsp;&nbsp;&nbsp;&nbsp;Cue the sun!
+&nbsp;&nbsp;&nbsp;&nbsp;Cue the sun!
+&nbsp;&nbsp;&nbsp;&nbsp;Cue the sun!
