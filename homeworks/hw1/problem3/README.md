@@ -3,7 +3,7 @@ vim alphabet.c
 
 #include <stdio.h>  
 int main () {  
-&nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!\a"); /* no error */  
+&nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!\a"); /\* no error */  
 &nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!\b"); /* no error */  
 &nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!");  
 &nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!");  
