@@ -34,6 +34,7 @@ $(EXE): $(OBJ)
 clean:  
 &nbsp;&nbsp;&nbsp;&nbsp;/bin/rm -f $(OBJ) $(EXE)  
 
+**make -f Makefile**
 
 **2. To run the program, type,**  
 &nbsp;&nbsp;&nbsp;&nbsp;./repeat.exe  
