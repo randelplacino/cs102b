@@ -43,15 +43,15 @@ OBJ=alphabet.o
 EXE=alphabet.exe  
 
 %.o: %.c   
-	$(CC) -c -o $@ $<  
+&nbsp;&nbsp;&nbsp;&nbsp;$(CC) -c -o $@ $<  
 
 $(EXE): $(OBJ)  
-	$(CC) -o $@ $^  
+&nbsp;&nbsp;&nbsp;&nbsp;$(CC) -o $@ $^  
 
 .PHONY: clean  
 
 clean:  
-	/bin/rm -f $(OBJ) $(EXE)  
+&nbsp;&nbsp;&nbsp;&nbsp;/bin/rm -f $(OBJ) $(EXE)  
 
 **2. To execute program:**  
 &nbsp;&nbsp;&nbsp;&nbsp;./alphabet.exe  
