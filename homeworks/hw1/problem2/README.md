@@ -13,11 +13,11 @@ int main () {
 }  
 
 **1. After saving and exiting with a new name (repeat.c),**  
-&nbsp;&nbsp;&nbsp;&nbsp;gcc repeat.c  
-**Is used to compile**  
+&nbsp;&nbsp;&nbsp;&nbsp;gcc repeat.c 
+&nbsp;&nbsp;&nbsp;&nbsp;gcc -o repeat repeat.c
 
 **2. To run the program, type,**  
-&nbsp;&nbsp;&nbsp;&nbsp;./a.out  
+&nbsp;&nbsp;&nbsp;&nbsp;./repeat  
 
 **3. The output is the following,**  
 &nbsp;&nbsp;&nbsp;&nbsp;Cue the sun!  
