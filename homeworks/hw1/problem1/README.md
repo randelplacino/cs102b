@@ -12,7 +12,7 @@
     input:  mv ~/file1.txt ~/hw1_unix_copy/file1.txt  
     output:
     
-4.  input:  cp ~/hw1_unix_copy/file1.txt ~/hw1_unix/file1_copy.txt  
+4.  input:  cp ~/hw1_unix_copy/file1.txt ~/hw1_unix/file1_copy.txt   
     output:
     
 5.  input:  cp ~/hw1_unix_copy/file1.txt ~/hw1_unix/file1_copy2.txt  
