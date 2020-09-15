@@ -53,6 +53,8 @@ $(EXE): $(OBJ)
 clean:  
 &nbsp;&nbsp;&nbsp;&nbsp;/bin/rm -f $(OBJ) $(EXE)  
 
+**make -f Makefile**
+
 **2. To execute program:**  
 &nbsp;&nbsp;&nbsp;&nbsp;./alphabet.exe  
 
