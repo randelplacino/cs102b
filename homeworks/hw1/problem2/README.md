@@ -13,7 +13,7 @@ int main () {
 }  
 
 **1. After saving and exiting with a new name (repeat.c),**  
-&nbsp;&nbsp;&nbsp;&nbsp;gcc repeat.c 
+&nbsp;&nbsp;&nbsp;&nbsp;gcc repeat.c  
 &nbsp;&nbsp;&nbsp;&nbsp;gcc -o repeat repeat.c
 
 **2. To run the program, type,**  
