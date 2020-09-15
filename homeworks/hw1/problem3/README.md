@@ -3,30 +3,30 @@ vim alphabet.c
 
 #include <stdio.h>  
 int main () {  
-&nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!\a"); /\* no error */  
-&nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!\b"); /* no error */  
+&nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!\a"); /\* no error \*/  
+&nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!\b"); /\* no error \*/  
 &nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!");  
 &nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!");  
-&nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!\e"); /* no error */  
-&nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!\f"); /* no error */  
-&nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!");  
-&nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!");  
-&nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!");  
+&nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!\e"); /\* no error \*/  
+&nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!\f"); /\* no error \*/  
 &nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!");  
 &nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!");  
 &nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!");  
 &nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!");  
-&nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!\n"); /* no error */  
 &nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!");  
 &nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!");  
 &nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!");  
-&nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!\r"); /\* no error */  
+&nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!\n"); /\* no error \*/  
 &nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!");  
-&nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!\t"); /* no error */  
-&nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!\u00B6"); /* unicode code point needed, inserted "00B6" */  
-&nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!\v"); /* no error */  
 &nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!");  
-&nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!\xB6"); /* hexadecimal needed, inserted "B6" */  
+&nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!");  
+&nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!\r"); /\* no error \*/  
+&nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!");  
+&nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!\t"); /\* no error \*/  
+&nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!\u00B6"); /\* unicode code point needed, inserted "00B6" \*/  
+&nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!\v"); /\* no error \*/  
+&nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!");  
+&nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!\xB6"); /\* hexadecimal needed, inserted "B6" \*/  
 &nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!");  
 &nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!");  
 }  
