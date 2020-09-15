@@ -34,16 +34,30 @@ int main () {
 **1. Testing each letter, attempted escape sequences that gave warnings were removed. Errors were fixed accordingly.**  
 **To compile:**  
 &nbsp;&nbsp;&nbsp;&nbsp;gcc alphabet.c  
-&nbsp;&nbsp;&nbsp;&nbsp;gcc -o alphabet.c  
+&nbsp;&nbsp;&nbsp;&nbsp;gcc -o alphabet.c 
+
+**Using make~**  
+**vim Makefile**  
+CC=gcc  
+OBJ=alphabet.o  
+EXE=alphabet.exe  
+
+%.o: %.c   
+	$(CC) -c -o $@ $<  
+
+$(EXE): $(OBJ)  
+	$(CC) -o $@ $^  
+
+.PHONY: clean  
+
+clean:  
+	/bin/rm -f $(OBJ) $(EXE)  
 
 **2. To execute program:**  
-&nbsp;&nbsp;&nbsp;&nbsp;./alphabet  
+&nbsp;&nbsp;&nbsp;&nbsp;./alphabet.exe  
 
 **3. The resulting output is:**  
 Hello, world!Hello, worldHello, world!Hello, world!Hello, world!ello, world!  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hello, world!Hello, world!Hello, world!Hello, world!Hello, world!Hello, world!Hello, world!Hello, world!  
 Hello, world!Hello, world!Hello,Hello, world!¶Hello, world!  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hello, world!Hello, world!?Hello, world!Hello, world!%
-
-**USING MAKEFILE:**
-**1. To compile**
