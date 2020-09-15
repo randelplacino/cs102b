@@ -20,7 +20,7 @@ int main () {
 &nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!");  
 &nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!");  
 &nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!");  
-&nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!\r"); /* no error */  
+&nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!\r"); /\* no error */  
 &nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!");  
 &nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!\t"); /* no error */  
 &nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!\u00B6"); /* unicode code point needed, inserted "00B6" */  
