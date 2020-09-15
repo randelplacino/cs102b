@@ -17,8 +17,29 @@ int main () {
 &nbsp;&nbsp;&nbsp;&nbsp;gcc repeat.c  
 &nbsp;&nbsp;&nbsp;&nbsp;gcc -o repeat repeat.c
 
+**Using make:**
+**vim Makefile**
+#
+# Makefile for hello.c
+#
+CC=gcc
+OBJ=repeat.o
+EXE=repeat.exe
+
+%.o: %.c 
+	$(CC) -c -o $@ $<
+
+$(EXE): $(OBJ)
+	$(CC) -o $@ $^
+
+.PHONY: clean
+
+clean:
+	/bin/rm -f $(OBJ) $(EXE)
+
+
 **2. To run the program, type,**  
-&nbsp;&nbsp;&nbsp;&nbsp;./repeat  
+&nbsp;&nbsp;&nbsp;&nbsp;./repeat.exe  
 
 **3. The output is the following,**  
 &nbsp;&nbsp;&nbsp;&nbsp;Cue the sun!  
