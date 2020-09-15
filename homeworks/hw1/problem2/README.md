@@ -17,25 +17,22 @@ int main () {
 &nbsp;&nbsp;&nbsp;&nbsp;gcc repeat.c  
 &nbsp;&nbsp;&nbsp;&nbsp;gcc -o repeat repeat.c
 
-**Using make:**
-**vim Makefile**
-#
-# Makefile for hello.c
-#
-CC=gcc
-OBJ=repeat.o
-EXE=repeat.exe
+**Using make~**  
+**vim Makefile**  
+CC=gcc  
+OBJ=repeat.o  
+EXE=repeat.exe  
 
-%.o: %.c 
-	$(CC) -c -o $@ $<
+%.o: %.c   
+&nbsp;&nbsp;&nbsp;&nbsp;$(CC) -c -o $@ $<  
 
-$(EXE): $(OBJ)
-	$(CC) -o $@ $^
+$(EXE): $(OBJ)  
+&nbsp;&nbsp;&nbsp;&nbsp;$(CC) -o $@ $^  
 
-.PHONY: clean
+.PHONY: clean  
 
-clean:
-	/bin/rm -f $(OBJ) $(EXE)
+clean:  
+&nbsp;&nbsp;&nbsp;&nbsp;/bin/rm -f $(OBJ) $(EXE)  
 
 
 **2. To run the program, type,**  
