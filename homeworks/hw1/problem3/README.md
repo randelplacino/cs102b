@@ -31,10 +31,7 @@ int main () {
 &nbsp;&nbsp;&nbsp;&nbsp;printf("Hello, world!");  
 }  
 
-**1. Testing each letter, attempted escape sequences that gave warnings were removed. Errors were fixed accordingly.**  
-**To compile:**  
-&nbsp;&nbsp;&nbsp;&nbsp;gcc alphabet.c  
-&nbsp;&nbsp;&nbsp;&nbsp;gcc -o alphabet.c 
+**1. Testing each letter, attempted escape sequences that gave warnings were removed. Errors were fixed accordingly.**   
 
 **Using make~**  
 **vim Makefile**  

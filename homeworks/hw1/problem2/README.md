@@ -14,9 +14,6 @@ int main () {
 }  
 
 **1. After saving and exiting with a new name (repeat.c),**  
-&nbsp;&nbsp;&nbsp;&nbsp;gcc repeat.c  
-&nbsp;&nbsp;&nbsp;&nbsp;gcc -o repeat repeat.c
-
 **Using make~**  
 **vim Makefile**  
 CC=gcc  
