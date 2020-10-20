@@ -1,7 +1,7 @@
 /*
  *	ticTacToe.c
  */
-
+#include <stdio.h>
 #include "ticTacToe.h"
 
 /* Create the board; make sure it starts off empty */
