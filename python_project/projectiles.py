@@ -18,9 +18,12 @@ print("")
 ft = (v*np.sin(theta)+np.sqrt(np.square(v*np.sin(theta))+2.0*9.8 *h))/(9.8)
 t = np.arange(0,ft)
 
+def x(t):
+    return (t*v*np.cos(theta))
+
 def y(t):
     return (h)+(((t))*(v)*np.sin(theta))-((.5)*(9.8)*(t**2))
 
-plt.plot(t,y(t))
+plt.plot(x(t),y(t))
 plt.grid()
 plt.show()
