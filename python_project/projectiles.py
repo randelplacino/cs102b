@@ -5,7 +5,6 @@ import matplotlib.pylab as plt
 v = float(input("Initial velocity (m/s): "))
 print("The initial velocity has been set to ", v, " m/s")
 print("")
-print(np.pi)
 
 theta = float(input("Initial angle (degrees): "))
 theta = round((theta)*(math.pi)*(0.00555555555), 3)
